@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+:root {
+    --font-family-title: 'Merriweather', Courier;
+    --font-family-text: 'roboto', sans-serif;
+    --background-color-body: #f5f0e6;
+    --background-color-card: #d8c3a5;
+    --titles-color: #5D3A00;
+    --text-color: #333333;
+    --links-color: #6B8E23;
+    --links-hover-color: #556B2F;
+    --button-primary: #8B4513;
+    --background-color-footer: #3E2C1C;
+}
+
+html,
+body {
+    background-color: var(--background-color-body);
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
